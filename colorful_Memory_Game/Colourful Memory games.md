@@ -25,6 +25,7 @@ After completing this lab, you will be able to:
 2. Styling: Applies CSS to create a visually appealing layout with specific colors, fonts, and button styles.
 
 3. JavaScript functions:
+
 i) generateCards(): Creates card elements with colors for the game.
 
 ii) shuffle(array): Randomizes the order of elements in an array.
