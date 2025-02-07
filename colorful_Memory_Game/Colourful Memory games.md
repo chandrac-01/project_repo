@@ -17,3 +17,15 @@ After completing this lab, you will be able to:
 4. Fundamentals of web game development: Gain insights into core concepts essential for creating interactive web-based games
    including array manipulation for shuffling elements, styling elements with CSS,
    and integrating JavaScript functionalities for game interactivity and dynamics.
+
+**Summary**
+1. HTML structure: Defines a game titled "Colorful Memory Match Game." It includes elements for the game grid, score, timer, and a start/restart button.
+2. Styling: Applies CSS to create a visually appealing layout with specific colors, fonts, and button styles.
+
+3. JavaScript functions:
+i) generateCards(): Creates card elements with colors for the game.
+ii) shuffle(array): Randomizes the order of elements in an array.
+iii) handleCardClick(event): Manages card clicks and checks for matches.
+iv) startGame(): Resets the game, shuffles cards, and starts a timer.
+
+4. Event listeners: Listens for clicks on the start/restart button to initialize the game. Listens for card clicks to reveal colors and check for matching pairs.
