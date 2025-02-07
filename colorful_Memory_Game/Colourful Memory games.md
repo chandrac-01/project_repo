@@ -1,4 +1,5 @@
 **What you will learn**
+
 In this lab, you will learn the fundamentals of building a memory matching game using HTML and JavaScript.
 You will understand how to dynamically generate game elements, such as cards with various colors,
 handle click events to reveal and match colors,implement a basic scoring system that increments upon successful matches,
@@ -7,6 +8,7 @@ concepts of DOM manipulation, event handling, array manipulation (shuffling), an
 into creating interactive web-based games.
 
 **Learning objectives**
+
 After completing this lab, you will be able to:
 1. DOM manipulation: Understand and implement dynamic HTML element
    creation and modification using JavaScript to generate a playable memory matching game grid.
