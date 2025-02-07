@@ -26,8 +26,11 @@ After completing this lab, you will be able to:
 
 3. JavaScript functions:
 i) generateCards(): Creates card elements with colors for the game.
+
 ii) shuffle(array): Randomizes the order of elements in an array.
+
 iii) handleCardClick(event): Manages card clicks and checks for matches.
+
 iv) startGame(): Resets the game, shuffles cards, and starts a timer.
 
-4. Event listeners: Listens for clicks on the start/restart button to initialize the game. Listens for card clicks to reveal colors and check for matching pairs.
+5. Event listeners: Listens for clicks on the start/restart button to initialize the game. Listens for card clicks to reveal colors and check for matching pairs.
