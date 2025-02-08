@@ -1,10 +1,10 @@
 
 var xhr = new XMLHttpRequest();
 var url = './health_article.json';
-xhr.open('GET', url, true);
+xhr.open('GET', url, true); //to receive data in a json format
 xhr.responseType = 'json';
 
-xhr.onload = function() {
+xhr.onload = function() { //to retrieve specific information like articles, and decided where to show them on the webpage 
     var articles = xhr.response.articles;
     var articlesDiv = document.getElementById('articles');
 }
