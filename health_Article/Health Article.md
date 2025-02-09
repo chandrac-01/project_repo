@@ -1,4 +1,4 @@
-** What you will learn**
+**What you will learn**
 
 In this lab, you will explore the dynamic creation of HTML elements using JavaScript, enabling the manipulation and
 real-time construction of webpage content. You will learn to parse JSON data to extract and structure information,
