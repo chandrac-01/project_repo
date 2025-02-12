@@ -1,9 +1,10 @@
-
+//we will initialize the variables
     const addPatientButton = document.getElementById("addPatient");
     const report = document.getElementById("report");
     const btnSearch = document.getElementById('btnSearch');
     const patients = [];
 
+    // This function retrieves the patient's details in the form
     function addPatient() {
         const name = document.getElementById("name").value;
         const gender = document.querySelector('input[name="gender"]:checked');
@@ -16,12 +17,16 @@
           generateReport();
         }
       }
+
+      //This function clears the form
       function resetForm() {
         document.getElementById("name").value = "";
         document.querySelector('input[name="gender"]:checked').checked = false;
         document.getElementById("age").value = "";
         document.getElementById("condition").value = "";
       }
+
+      // This function calculates and constructs analysis report
       function generateReport() {
         const numPatients = patients.length;
         const conditionsCount = {
@@ -64,6 +69,7 @@
 
   addPatientButton.addEventListener("click", addPatient);
 
+  //This function designed to work within a web page to retrieve health condition information
   function searchCondition() {
     const input = document.getElementById('conditionInput').value.toLowerCase();
     const resultDiv = document.getElementById('result');
